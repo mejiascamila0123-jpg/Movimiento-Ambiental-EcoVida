@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #222222;
+    line-height: 1.65;
+}
+
+header {
+    background-color: #1e4e79;
+    color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0 0 10px 0;
+    font-size: 2rem;
+}
+
+header p {
+    max-width: 650px;
+    margin: 0 auto;
+    font-size: 1rem;
+    opacity: 0.9;
+}
+
+main {
+    max-width: 760px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.banner-sec {
+    margin-bottom: 35px;
+}
+
+.banner-sec img, .consejos img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.consejos h2 {
+    color: #1e4e79;
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 8px;
+    margin-top: 40px;
+    font-size: 1.5rem;
+}
+
+.consejos article {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.consejos article:last-child {
+    border-bottom: none;
+}
+
+.consejos h3 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: #111111;
+    font-size: 1.2rem;
+}
+
+footer {
+    text-align: center;
+    padding: 25px 15px;
+    font-size: 0.85rem;
+    color: #666666;
+    border-top: 1px solid #eeeeee;
+    margin-top: 50px;
+}

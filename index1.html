@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoVida Movimiento Ambiental</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="icon" type="image/png" href="imágenes/images.webp">
+    <meta name="theme-color" content="#2f75b5">
+</head>
+<body>
+    <header>
+        <h1>Campaña EcoVida</h1>
+        <p>Cuidar nuestro ambiente es tarea de todos. Sumate al cambio uniendote a esta campaña para cuidar el ambiente. Porque cuidar del ambiente, es como cuidarnos a nostros mismos, y si no cuiadamos el ambiente, es indicio de que nos queremos a nosotros mismos</p>
+    </header>
+
+    <main>
+        <section class="banner-sec">
+            <img src="imágenes/ecovida_logo-png_horizontal_full-YyvDoaEPM3iw1eam.webp" alt="Es una gota, con hojas adentro, y al costado tiene la frace 'EcoVida'" width="800" height="450">
+        </section>
+
+        <section class="consejos">
+            <h2>Tres consejos a tener en cuenta para cuidar el ambiente</h2>
+            <article>
+                <h3>1. Reducir el consumo de plásticos</h3>
+                <p>Evita utilizar objetos a base de plásticos de un solo uso(osea objetos descartables), remplazandolos utilizando botellas reutilizables y bolsas de tela.</p>
+                <img src="imágenes/Contenedores-de-reciclaje-segun-sus-colores-y-usos1-scaled.webp" alt="Una persona tirando la basura en los contenedores corrrespondientes" width="400" height="300" loading="lazy">
+            </article>
+            <Article>
+                <h3>2. Aprendé a cuidar la energía</h3>
+                <p>No utilices aparatos electrónicos que no estes utilizando, ni dejes las luces prendidas al pedo, esto te ayudara tanto a bajar tu consumo, como a reducir el monto a pagar de la boleta de luz.</p>
+            </article>
+            <article>
+                <h3>3. Separa la basura</h3>
+                <p>Clasificá la basura en organicos(Frutas, Vederduras, Comida) e inorgánicos(Botellas, plásticos, vidrios) para así lograr un mejor reciclaje.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Movimiento Ambiental EcoVida | Escuela Ing. Pablo Nogués | Camila Mejías y Julieta Peña</p>
+    </footer>
+
+    <script>
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register("./sw.js")
+                .then(() => console.log("Service Worker registrado con éxito."))
+                .catch((err) => console.log("Falla en el registro del Service Worker:", err));
+        }
+    </script>
+</body>
+</html>
